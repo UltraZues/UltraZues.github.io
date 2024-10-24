@@ -64,6 +64,12 @@
             padding: 100px 20px;
         }
 
+        section#hero img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
         /* About Section */
         section#about {
             background: white;
@@ -106,6 +112,22 @@
             text-align: center;
         }
 
+        /* Responsive Image Handling */
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Desktop Specific */
+        @media (min-width: 1024px) {
+            section#hero img {
+                max-width: 800px; /* Limit image width on larger screens */
+            }
+            section#roadmap img {
+                max-width: 900px;
+            }
+        }
+
         /* Animations */
         .fade-in {
             opacity: 0;
@@ -136,7 +158,7 @@
     <section id="hero" class="fade-in">
         <h2>HODI with DOGHODI! 🚀</h2>
         <p>Join the adventure and become part of a meme coin movement destined for greatness.</p>
-        <img src="https://i.imgur.com/Ntm1xWg.png" alt="DOGHODI Dog to Moon" style="max-width: 100%; height: auto; border-radius: 10px;">
+        <img src="https://i.imgur.com/Ntm1xWg.png" alt="DOGHODI Dog to Moon">
     </section>
 
     <!-- About Section -->
@@ -154,7 +176,7 @@
     <section id="roadmap">
         <h2>Our Roadmap to the Moon</h2>
         <p>Phase 1: Token Launch 🚀 | Phase 2: Community Building 🤝 | Phase 3: Listings on Major Exchanges 💹 | Phase 4: Partnerships 🌍 | Phase 5: Moon Landing 🌕🎉</p>
-        <img src="https://i.imgur.com/Nck7YOM.png" alt="Roadmap" style="max-width: 100%; height: auto; border-radius: 10px;">
+        <img src="https://i.imgur.com/Nck7YOM.png" alt="Roadmap">
     </section>
 
     <!-- Tokenomics Section -->
