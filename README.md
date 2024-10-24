@@ -103,9 +103,9 @@
     <!-- How to Buy Section -->
     <section id="buy">
         <h2>How to Buy $DOGHODI</h2>
-        <p>1. Download a crypto wallet (MetaMask or Trust Wallet).<br>
-           2. Buy BNB.<br>
-           3. Swap for $DOGHODI on PancakeSwap.<br>
+        <p>1. Download a crypto wallet (phantom Wallet).<br>
+           2. Buy sol.<br>
+           3. Swap for $DOGHODI on pump.fun<br>
            4. HODI and enjoy the ride!</p>
         <a href="https://pancakeswap.finance" class="cta-button">Buy on PancakeSwap</a>
     </section>
@@ -114,8 +114,8 @@
     <section id="community">
         <h2>Join the DOGHODI Pack</h2>
         <p>Follow us on social media for updates, giveaways, and more!</p>
-        <a href="https://twitter.com" class="cta-button">Twitter</a>
-        <a href="https://telegram.org" class="cta-button">Telegram</a>
+        <a href="[https://twitter.com](https://x.com/dogwithhoo49602)" class="cta-button">Twitter</a>
+        <a href="[https://telegram.org](https://t.me/DOGWITHHODI)" class="cta-button">Telegram</a>
         <a href="https://discord.com" class="cta-button">Discord</a>
     </section>
 
